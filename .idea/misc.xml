@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PBK11/AndroidStudioProjects/Ujk_PelayananCafe/app/src/main/res/layout/activity_batagor.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/PBK11/AndroidStudioProjects/Ujk_PelayananCafe/app/src/main/res/layout/activity_black_coffe.xml" value="0.2" />
+        <entry key="..\:/Users/PBK11/AndroidStudioProjects/Ujk_PelayananCafe/app/src/main/res/layout/activity_capucino.xml" value="0.16" />
+        <entry key="..\:/Users/PBK11/AndroidStudioProjects/Ujk_PelayananCafe/app/src/main/res/layout/activity_cireng.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/PBK11/AndroidStudioProjects/Ujk_PelayananCafe/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/PBK11/AndroidStudioProjects/Ujk_PelayananCafe/app/src/main/res/layout/activity_nasgor.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/PBK11/AndroidStudioProjects/Ujk_PelayananCafe/app/src/main/res/layout/activity_riwayat.xml" value="0.33" />
+        <entry key="..\:/Users/PBK11/AndroidStudioProjects/Ujk_PelayananCafe/app/src/main/res/layout/activity_sparkling_tea.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/PBK11/AndroidStudioProjects/Ujk_PelayananCafe/app/src/main/res/layout/item_row.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88FFC107"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar Menu"
+            android:textAlignment="center"
+            android:textColor="#131313"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+        <Button
+            android:id="@+id/btnRiwayat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Riwayat"
+            android:textAlignment="center"
+            android:textColor="#131313"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnBlackCoffe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:layout_weight="0.5"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Black Coffe"
+                    android:onClick="BlackCoffe"
+                    app:backgroundTint="#009688" />
+
+                <Button
+                    android:id="@+id/btnCappucino"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:layout_weight="0.5"
+                    android:onClick="Cappucino"
+                    android:layout_marginRight="10dp"
+                    android:text="Cappucino"
+                    app:backgroundTint="#009688" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSparkTea"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:layout_weight="0.5"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:onClick="SparklingTea"
+                    android:text="Sparkling Tea"
+                    app:backgroundTint="#009688" />
+
+                <Button
+                    android:id="@+id/btnBatagor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:layout_weight="0.5"
+                    android:layout_marginRight="10dp"
+                    android:onClick="Batagor"
+                    android:text="Batagor"
+                    app:backgroundTint="#009688" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnCireng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:layout_weight="0.5"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:onClick="Cireng"
+                    android:text="Cireng"
+                    app:backgroundTint="#009688" />
+
+                <Button
+                    android:id="@+id/btnNasgor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200sp"
+                    android:layout_weight="0.5"
+                    android:onClick="NasiGoreng"
+                    android:layout_marginRight="10dp"
+                    android:text="Nasi Goreng"
+                    app:backgroundTint="#009688" />
+            </TableRow>
+
+<!--            <TableRow-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent" >-->
+<!--                <Button-->
+<!--                    android:id="@+id/btnCheeseCake"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="200sp"-->
+<!--                    android:layout_weight="0.5"-->
+<!--                    android:layout_marginRight="10dp"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:onClick="ChesseCake"-->
+<!--                    android:text="Chesse Cake"-->
+<!--                    app:backgroundTint="#009688" />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/btnBlackSalad"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="200sp"-->
+<!--                    android:layout_weight="0.5"-->
+<!--                    android:onClick="BlackSalad"-->
+<!--                    android:layout_marginRight="10dp"-->
+<!--                    android:text="Black Salad"-->
+<!--                    app:backgroundTint="#009688" />-->
+<!--            </TableRow>-->
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

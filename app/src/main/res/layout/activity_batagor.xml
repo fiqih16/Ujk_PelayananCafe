@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88FFC107">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_BlackTea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Batagor"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/batagor" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deskription"
+            android:textColor="#171717"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Des_Blackcoffe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Des"
+            android:text="Baso dan Tahu Goreng dengan sajian bumbu kacang dan kecap khas bandung"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga"
+            android:textColor="#171717"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Harga"
+            android:text="25.000"
+            android:textSize="20dp" />
+
+        <!--        <TextView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Jumlah Pesanan"-->
+        <!--            android:textColor="#131313"-->
+        <!--            android:textStyle="bold" />-->
+
+        <!--        <EditText-->
+        <!--            android:id="@+id/et_jumlah"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:hint="Jumlah"-->
+        <!--            android:text="2000"-->
+        <!--            android:inputType="number" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nomor Meja"
+            android:textColor="#101010"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_nomeja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Nomor Meja" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal"
+            android:textColor="#101010"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_tgl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="--/--/----"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:cursorVisible="false"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jam"
+            android:textColor="#101010"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_jam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="-- : --"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:cursorVisible="false" />
+
+        <Button
+            android:id="@+id/btnR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:background="#FF5722"
+            android:onClick="Hitung"
+            android:text="Pesan Sekarang"
+            android:textColor="@color/white"
+            app:backgroundTint="#FF5722" />
+
+        <Button
+            android:id="@+id/btnhome4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/black"
+            android:backgroundTint="#FF5722"
+            android:onClick="kembali"
+            android:text="menu utama"
+            android:textColor="#F1EBEB"
+            app:backgroundTint="#009688" />
+    </LinearLayout>
+
+</ScrollView>
